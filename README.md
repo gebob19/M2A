@@ -2,6 +2,8 @@
 
 Code is built on top of the TSM module's repo (https://github.com/mit-han-lab/temporal-shift-module). 
 
+We use the following code for I3D experiments: https://github.com/IBM/action-recognition-pytorch.
+
 Key Files: 
 - `main.py`: Train using DataParralel
 - `opts.py`: command line arguments for training 
