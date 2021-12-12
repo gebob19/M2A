@@ -109,10 +109,10 @@ class TSN(nn.Module):
         print('=> base model: {}'.format(base_model))
 
         if 'resnet' in base_model:
-            # self.base_model = getattr(torchvision.models, base_model)(True if self.pretrain == 'imagenet' else False)
+            self.base_model = getattr(torchvision.models, base_model)(True if self.pretrain == 'imagenet' else False)
 
-            self.base_model = getattr(torchvision.models, base_model)(False)
-            self.base_model.load_state_dict(torch.load('resnet18-5c106cde.pth'))
+            # self.base_model = getattr(torchvision.models, base_model)(False)
+            # self.base_model.load_state_dict(torch.load('resnet18-5c106cde.pth'))
 
             if self.temporal_module != 'none':
                 print('Adding {}...'.format(self.temporal_module))
