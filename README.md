@@ -1,6 +1,6 @@
 # M2A: Motion Aware Attention for Video Action Recognition 
 
-Code is built on top of the TSM module's repo. 
+Code is built on top of the TSM module's repo (https://github.com/mit-han-lab/temporal-shift-module). 
 
 Key Files: 
 - `main_multi.py`: Train using distributed data parralel pytorch 
