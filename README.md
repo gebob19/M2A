@@ -1,4 +1,5 @@
 # M2A: Motion Aware Attention for Video Action Recognition 
+# [[ArXiv]](https://arxiv.org/abs/2111.09976)
 
 Code is built on top of the TSM module's repo (https://github.com/mit-han-lab/temporal-shift-module). 
 
